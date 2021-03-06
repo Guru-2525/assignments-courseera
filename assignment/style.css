@@ -41,7 +41,7 @@ div.card{
 }
 
 div.card-body{
-	border: 2px solid black;
+	border: 3px solid black;
 }
 
 p.tag{
@@ -65,15 +65,15 @@ p.content{
 }
 
 .red{
-	background-color: orange;
+	background-color: red;
 }
 
 .gold{
-	background-color: #FEE65F;
+	background-color: gold;
 }
 
 .black{
-	background-color: #413D3C;
+	background-color: black;
 }
 
 .black-text{
@@ -81,7 +81,7 @@ p.content{
 }
 
 .dark-blue{
-	background-color: #082F5F;
+	background-color: blue;
 }
 
 .dark-blue-text{
