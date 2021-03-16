@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.0.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
   </head>
 <body>
   <header>
-    <nav id="header-nav" class="navbar navbar-default navbar-expand-lg navbar-light ">
+    <nav id="header-nav" class="navbar navbar-default  navbar-expand-xl navbar-dark bg-dark">
       <div class="container">
         <div class="navbar-header">
-          <a href="index.html" class="pull-left d-none d-md-block d-lg-block d-xl-block">
-
-
-            <div id="logo-img" alt="logo-img"></div>
+          <a href="index.html" class="pull-left hidden-xs hidden-s">
+           <div id="logo-img" alt="logo-img"></div>
           </a>
 
           <div class="navbar-brand">
@@ -28,21 +26,73 @@
               <span>Kosher Certified</span>
             </p>
           </div>
-           
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-                  <span class="icon-bar"></span>
+         <button class ="navbar-toggle" type ="button" data-toggle ="collapse" data-target ="#colNav">
+          <span class ="navbar-toggle-icon"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-    </button>
-    
-  </div>
-</nav>
-        </div>
-      </div>
-    </nav>
+            <span class="icon-bar"></span>
+</button>      
+</div>
 
-  </header>
+   <div id="colNav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                
+                <span class="glyphicon glyphicon-cutlery"></span> <br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span> <br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span> <br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs hidden-s">
+              <a href="tel:410-602-5008">
+                <span>410-602-5008</span></a><div>* We Deliver</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+        </nav>
+        </div>
+      </header>
+      <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    410-602-5008
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+     <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/rTDSv786LsASYe2W7" target="_blank">
+          <div id="map-tile">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15419.54562352516!2d77.24964772415447!3d14.943420733356483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb6d937374954a5%3A0xffc5cc2f6ead85f1!2sCLOCK%20TOWER%2C%20OLD%20BUS%20STAND%2C%2C%20Bellary%20Anantapur%20Rd%2C%20Uravakonda%2C%20Andhra%20Pradesh%20515812!5e0!3m2!1sen!2sin!4v1615880140728!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <span>map</span>
+          </div>
+
+        </a>
+      </div>
+    </div>
+
+
+  </div>
 
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
